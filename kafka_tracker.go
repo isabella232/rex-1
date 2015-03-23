@@ -6,7 +6,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/juju/loggo"
-	"github.com/remerge/rex/kafka"
+	"github.com/liquidm/rex/kafka"
 )
 
 type KafkaTracker struct {

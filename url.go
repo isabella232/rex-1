@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/remerge/rex/publicsuffix"
+	"github.com/liquidm/rex/publicsuffix"
 )
 
 func ParseUrlOrDomain(value string) (*url.URL, error) {

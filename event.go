@@ -9,7 +9,7 @@ type EventMetadata struct {
 }
 
 type Event struct {
-	Ts string `json:"ts,omitempty"`
+	Timestamp float64 `json:"timestamp,omitempty"`
 	EventMetadata
 }
 
