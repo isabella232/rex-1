@@ -51,5 +51,5 @@ func (self *BaseTracker) AddMetadataMap(event map[string]interface{}, full bool)
 	}
 }
 func getCurrentTime() float64 {
-	return time.Now().UnixNano() / 1000000000
+	return float64(time.Now().UnixNano()/1000000) / 1000
 }
