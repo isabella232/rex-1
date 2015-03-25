@@ -38,7 +38,7 @@ func (self *BaseTracker) AddMetadata(e EventBase, full bool) {
 }
 
 func (self *BaseTracker) AddMetadataMap(event map[string]interface{}, full bool) {
-	if event["timestamp"] == 0 {
+	if event["timestamp"] == nil {
 		event["timestamp"] = getCurrentTime()
 
 		if full == true {
